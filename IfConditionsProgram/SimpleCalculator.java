@@ -8,11 +8,13 @@ class SimpleCalculator{
         System.out.println("4- Division");
         System.out.print("Enter Your Choice ");
         int choice = scan.nextInt();
-        
-        System.out.print("Enter First Number: ");
-        int num1 = scan.nextInt();
-        System.out.print("Enter First Number: ");
-        int num2 = scan.nextInt();
+        if (choice < 1 || choice > 4) {
+            System.out.println("Invalid choice"); 
+        } else {
+            System.out.print("Enter First Number: ");
+            int num1 = scan.nextInt();
+            System.out.print("Enter Second Number: ");
+            int num2 = scan.nextInt();
         
         if(choice == 1){
         int result = num1 + num2;
@@ -26,8 +28,7 @@ class SimpleCalculator{
         }else if(choice == 4){
         int result = num1 / num2;
         System.out.println("The Subtraction of Two Numbers is: " + result);
-        }else {
-            System.out.println("Invalid choice");
+        }
         }
     }
 }
