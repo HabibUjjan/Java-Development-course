@@ -28,7 +28,7 @@ class SimpleCalculator{
         }else if(choice == 4){
         int result = num1 / num2;
         System.out.println("The Subtraction of Two Numbers is: " + result);
-        }
+           }
         }
     }
 }
