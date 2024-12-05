@@ -11,7 +11,7 @@ class Library{
 		library1.totalBooks = 1200;
 		library1.members = 800;
 		
-		System.out.println("<<<<<<<LIBRARY INFORAMTION");
+		System.out.println("<<<<<<<LIBRARY INFORAMTION>>>>>>>");
 		System.out.println("Library Name : "+library1.libraryName);
 		System.out.println("Address      : "+library1.address);
 		System.out.println("Total Books  : "+library1.totalBooks);
