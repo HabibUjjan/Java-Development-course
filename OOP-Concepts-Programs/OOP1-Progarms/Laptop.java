@@ -1,27 +1,24 @@
 class Laptop{
     String name;
-	double price;
-	String color;
-	String model;
-	
-	
+    double price;
+    String color;
+    String model;
 	public static void main(String Args[]){
+	Laptop habibLaptop = new Laptop();
+	habibLaptop.name = "Habibullah";
+	habibLaptop.price = 45000;
+	habibLaptop.color = "Sliver";
+	habibLaptop.model = "Hp G3 840 Elite Book";
 		
-		Laptop habibLaptop = new Laptop();
-		habibLaptop.name = "Habibullah";
-		habibLaptop.price = 45000;
-		habibLaptop.color = "Sliver";
-		habibLaptop.model = "Hp G3 840 Elite Book";
-		
-		System.out.println("LAPTOP'S INFORMATION");
+	System.out.println("LAPTOP'S INFORMATION");
         System.out.println("Name  : "+habibLaptop.name);
         System.out.println("Price : "+habibLaptop.price);
         System.out.println("Color : "+habibLaptop.color);
         System.out.println("Model : "+habibLaptop.model);
-		System.out.println();
+	System.out.println();
 
 
-		Laptop muzafarLaptop = new Laptop();
+	Laptop muzafarLaptop = new Laptop();
         muzafarLaptop.name = "Muzzafar Ali";
         muzafarLaptop.price = 44000;
         muzafarLaptop.color = "Blue";
@@ -32,9 +29,9 @@ class Laptop{
         System.out.println("Price : "+muzafarLaptop.price);
         System.out.println("Color : "+muzafarLaptop.color);
         System.out.println("Model : "+muzafarLaptop.model);
-		System.out.println();
+	System.out.println();
 		
-		Laptop shahzadLaptop = new Laptop();
+	Laptop shahzadLaptop = new Laptop();
         shahzadLaptop.name = "Shahzad Ali";
         shahzadLaptop.price = 410000;
         shahzadLaptop.color = "Black";
@@ -45,10 +42,10 @@ class Laptop{
         System.out.println("Price : "+shahzadLaptop.price);
         System.out.println("Color : "+shahzadLaptop.color);
         System.out.println("Model : "+shahzadLaptop.model);
-		System.out.println();
+	System.out.println();
 		
 		
-		Laptop sajidLaptop  = new Laptop();
+	Laptop sajidLaptop  = new Laptop();
         sajidLaptop.name = "Sajid Hussain";
         sajidLaptop.price = 43000;
         sajidLaptop.color = "Blue";
@@ -62,7 +59,7 @@ class Laptop{
         System.out.println();
 		
 		
-		Laptop partabLaptop = new Laptop();
+	Laptop partabLaptop = new Laptop();
         partabLaptop.name = "Partab Kumar";
         partabLaptop.price = 46000;
         partabLaptop.color = "black";
