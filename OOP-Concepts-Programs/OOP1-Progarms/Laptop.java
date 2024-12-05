@@ -10,7 +10,7 @@ class Laptop{
 	habibLaptop.color = "Sliver";
 	habibLaptop.model = "Hp G3 840 Elite Book";
 		
-	System.out.println("LAPTOP'S INFORMATION");
+	System.out.println("<<<<<<<<LAPTOP'S INFORMATION>>>>>>>>");
         System.out.println("Name  : "+habibLaptop.name);
         System.out.println("Price : "+habibLaptop.price);
         System.out.println("Color : "+habibLaptop.color);
