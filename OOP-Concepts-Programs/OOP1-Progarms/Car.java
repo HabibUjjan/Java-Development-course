@@ -16,10 +16,10 @@ class Car{
         System.out.println("Price : "+carChevrolet.price);
         System.out.println("Color : "+carChevrolet.color);
         System.out.println("Model : "+carChevrolet.model);
-		System.out.println();
+	System.out.println();
 
 
-		Car carFord = new Car();
+	Car carFord = new Car();
         carChevrolet.name = "Mustang";
         carChevrolet.price = 4453300;
         carChevrolet.color = "Blue";
@@ -30,9 +30,9 @@ class Car{
         System.out.println("Price : "+carChevrolet.price);
         System.out.println("Color : "+carChevrolet.color);
         System.out.println("Model : "+carChevrolet.model);
-		System.out.println();
+	System.out.println();
 		
-		Car carBMW = new Car();
+	Car carBMW = new Car();
         carChevrolet.name = "3 Series";
         carChevrolet.price = 94100000;
         carChevrolet.color = "White";
@@ -43,10 +43,10 @@ class Car{
         System.out.println("Price : "+carChevrolet.price);
         System.out.println("Color : "+carChevrolet.color);
         System.out.println("Model : "+carChevrolet.model);
-		System.out.println();
+	System.out.println();
 		
 		
-		Car carMercedes = new Car();
+	Car carMercedes = new Car();
         carChevrolet.name = "C-Class";
         carChevrolet.price = 94400000;
         carChevrolet.color = "Yellow";
@@ -60,7 +60,7 @@ class Car{
         System.out.println();
 		
 		
-		Car carAudi = new Car();
+	Car carAudi = new Car();
         carChevrolet.name = "A4";
         carChevrolet.price = 78100000;
         carChevrolet.color = "Red";
