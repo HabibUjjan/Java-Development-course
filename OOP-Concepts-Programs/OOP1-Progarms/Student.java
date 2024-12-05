@@ -11,7 +11,7 @@ class Student{
 	 habibStudent.id = "BSE-23F-001";
 	 habibStudent.department = "Software Engineering";
 	 
-	 System.out.println("******STUDENTS INFORMATION******");
+	 System.out.println("<<<<<<<<STUDENT'S INFORMATION>>>>>>>>");
 	 System.out.println("Name: "+habibStudent.name);
 	 System.out.println("Age : "+habibStudent.age);
 	 System.out.println("ID  : "+habibStudent.id);
