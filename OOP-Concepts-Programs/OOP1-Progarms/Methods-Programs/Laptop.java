@@ -26,7 +26,7 @@ class Laptop {
 
     public static void main(String Args[]) {
         // Laptop details of Habib
-		System.out.println("<<<<<<<<LAPTOP'S INFORMATION>>>>>>>>");
+	System.out.println("<<<<<<<<LAPTOP'S INFORMATION>>>>>>>>");
         Laptop habibLaptop = new Laptop();
         habibLaptop.name = "Habibullah";
         habibLaptop.price = 45000;
@@ -45,7 +45,7 @@ class Laptop {
         muzafarLaptop.model = "Dell Latitude E44";
         muzafarLaptop.displayInfo();  // Display Muzafar's laptop details
         muzafarLaptop.increasePrice(5);  // Increase price by 5%
-		System.out.println();
+	System.out.println();
 
 
         // Laptop details of Shahzad
@@ -55,7 +55,7 @@ class Laptop {
         shahzadLaptop.color = "Black";
         shahzadLaptop.model = "Hp G4 545 Pro Book";
         shahzadLaptop.displayInfo();  // Display Shahzad's laptop details
-		System.out.println();
+	System.out.println();
 
 
         // Laptop details of Sajid

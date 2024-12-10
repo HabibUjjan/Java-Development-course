@@ -19,12 +19,12 @@ class Student {
     }
 
     public static void main(String Args[]) {
+        System.out.println("<<<<<<<<STUDENT'S INFORMATION>>>>>>>>");
         Student habibStudent = new Student();
         habibStudent.name = "Habibullah Ujjan";
         habibStudent.age = 18;
         habibStudent.id = "BSE-23F-001";
         habibStudent.department = "Software Engineering";
-        System.out.println("<<<<<<<<STUDENT'S INFORMATION>>>>>>>>");
         habibStudent.printStudentInfo();
 
         // Updating age 
