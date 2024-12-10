@@ -36,8 +36,8 @@ class BankAccount{
 	   System.out.println("Balance       : "+account1.balance);
 	   System.out.println("Account Type  : "+account1.accountType);
 	   // Deposit and withdraw methods
-       account1.deposit(50000);  // Deposit amount
-       account1.withdraw(100000);  // Withdraw amount
+           account1.deposit(50000);  // Deposit amount
+           account1.withdraw(100000);  // Withdraw amount
 	   System.out.println();
 
 	   
@@ -52,7 +52,7 @@ class BankAccount{
 	   System.out.println("Balance       : "+account2.balance);
 	   System.out.println("Account Type  : "+account2.accountType);
 	   account2.deposit(50000);  // Deposit amount
-       account2.withdraw(100000);  // Withdraw amount
+           account2.withdraw(100000);  // Withdraw amount
 	   System.out.println();
 	   
 	   BankAccount account3 = new BankAccount();
