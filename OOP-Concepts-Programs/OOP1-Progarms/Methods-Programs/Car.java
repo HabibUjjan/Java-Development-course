@@ -16,7 +16,7 @@ class Car {
     public void applyTax(double taxPercentage) {
         if (taxPercentage > 0) {
             double taxAmount = price * taxPercentage / 100; 
-			price += taxAmount;
+	    price += taxAmount;
             System.out.println("Tax Applied: " + taxPercentage + "%");
             System.out.println("New Price After Tax: " + price);
         } else {
@@ -52,7 +52,7 @@ class Car {
         carBMW.price = 94100000;
         carBMW.color = "White";
         carBMW.model = "BMW 330i";
-		carChevrolet.displayInfo();
+	carChevrolet.displayInfo();
         System.out.println();
 
         // Details Of CarMercedes
@@ -61,7 +61,7 @@ class Car {
         carMercedes.price = 94400000;
         carMercedes.color = "Yellow";
         carMercedes.model = "Mercedes-Benz C300";
-		carChevrolet.displayInfo();
+	carChevrolet.displayInfo();
         System.out.println();
 
         // Details of carAudi
@@ -70,7 +70,7 @@ class Car {
         carAudi.price = 78100000;
         carAudi.color = "Red";
         carAudi.model = "Audi A4 Premium";
-		carChevrolet.displayInfo();
+	carChevrolet.displayInfo();
         System.out.println();
     }
 }
