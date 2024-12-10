@@ -3,6 +3,17 @@ class Car{
       double price;
       String color;
       String model; 
+
+      public void applyDiscount(double discountPercentage) {
+        if (discountPercentage > 0 && discountPercentage <= 100) {
+            double discountAmount = price * discountPercentage / 100;
+            price -= discountAmount;
+            System.out.println("Discount Applied: " + discountPercentage + "%");
+            System.out.println("New Price After Discount: " + price);
+        } else {
+            System.out.println("Invalid discount percentage.");
+        }
+    }
     
         public static void main(String Args[]){
         Car carChevrolet = new Car();
@@ -16,6 +27,8 @@ class Car{
         System.out.println("Price : "+carChevrolet.price);
         System.out.println("Color : "+carChevrolet.color);
         System.out.println("Model : "+carChevrolet.model);
+        // Apply a discount to carChevrolet
+        carChevrolet.applyDiscount(10);  // 10% discount
 	System.out.println();
 
 

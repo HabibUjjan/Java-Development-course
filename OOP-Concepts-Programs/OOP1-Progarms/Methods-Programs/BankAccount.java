@@ -3,6 +3,25 @@ class BankAccount{
    String accountName; 
    double balance; 
    String accountType;
+	 //  deposit amount methode
+	 public void deposit(double amount) {
+		if(amount > 0) {
+			balance += amount;
+			System.out.println(amount + " Deposited Successfully Your New balance is: " + balance);
+		} else {
+			System.out.println("Invalid Deposit Amount");
+		}
+	}
+ 
+	//  withdraw amount methode
+	public void withdraw(double amount) {
+		if(amount > 0 && amount <= balance) {
+			balance -= amount;
+			System.out.println(amount + " Withdraw Successfully Your New balance is: " + balance);
+		} else {
+			System.out.println("Insufficient balance or invalid withdrawal amount");
+		}
+	}
 
    public static void main(String Args[]){
 	   BankAccount account1 = new BankAccount();
@@ -16,6 +35,9 @@ class BankAccount{
 	   System.out.println("Account Name  : "+account1.accountName	);
 	   System.out.println("Balance       : "+account1.balance);
 	   System.out.println("Account Type  : "+account1.accountType);
+	   // Deposit and withdraw methods
+       account1.deposit(50000);  // Deposit amount
+       account1.withdraw(100000);  // Withdraw amount
 	   System.out.println();
 
 	   
@@ -29,6 +51,8 @@ class BankAccount{
 	   System.out.println("Account Name  : "+account2.accountName	);
 	   System.out.println("Balance       : "+account2.balance);
 	   System.out.println("Account Type  : "+account2.accountType);
+	   account2.deposit(50000);  // Deposit amount
+       account2.withdraw(100000);  // Withdraw amount
 	   System.out.println();
 	   
 	   BankAccount account3 = new BankAccount();
