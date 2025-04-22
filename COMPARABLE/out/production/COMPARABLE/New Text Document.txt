@@ -1,0 +1,14 @@
+public class Marks(){
+	public static void main (String Args[]){
+	Arraylist<Integer> marks = new Arraylist<>();
+	marks.add(39);
+	marks.add(20);
+	marks.add(5);
+	marks.add(15);
+	System.out.println(marks);
+	
+
+
+	}
+
+}
